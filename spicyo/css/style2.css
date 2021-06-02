@@ -13,26 +13,28 @@ body {
 }
 
 
-
 .lista ul{
    width: 100%;
-   margin: 20px auto 0 auto;
+   margin: 30px auto 0 auto;
    
 }
 
 .lista ul li{
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
+    display: block;
     font-size: 1.1em;
-    
+    min-width: 20%;
 }
 .lista ul li a:link, .lista ul li a:visited{
     border: 1px solid white;
     transition: .4s;
-    padding: 3% 20%;
     color: white !important;
+    text-align: center;
+}
+
+.lista ul li:last-child{
+    
 }
 
 .lista ul li a:hover, .lista ul li a:focus{
@@ -42,23 +44,40 @@ body {
 }
 
 div.col-md-3{
-    margin-right: 10px;
+    
 }
 
-.justify-center-content img{
-    margin:0 auto;
+.justify-center-content img{    
+    margin: 4% auto;
     display: block;
-    
-   
 }
 
 div form button{
-margin-top: -1px;
 padding: 17px 25% !important;
 }
 
 div form input{
-    
+    margin-top: 1px;
+}
+
+
+.main{
+    width: 50%;
+    margin: 50px auto;
+    display: none;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    display: none;
 }
 
 
@@ -377,11 +396,6 @@ header .container-fluid {
     color: #fff;
     border-color: #e3d105;
     color: #222;
-}
-#sidebarCollapse {
-    background: transparent;
-    position: relative !important;
-    
 }
 .slider_section {
     background: #212020;
@@ -721,7 +735,7 @@ header .container-fluid {
     border: #fff solid 2px;
     border-radius: inherit;
     margin-bottom: 25px;
-    padding: 15px 20px;
+    padding: 15px 50px;
     font-family: poppins;
 }
 .form-control:focus {
@@ -893,11 +907,7 @@ ul.lik li.active a {
     display: block;
     opacity: 1;
 }
-#sidebarCollapse {
-    background: transparent;
-    padding: 0;
-    border: none;
-}
+
 #sidebar .sidebar-header {
     padding: 20px;
     background: #6d7fcc;

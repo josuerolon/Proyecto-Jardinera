@@ -31,7 +31,33 @@
 <!-- body -->
 
 <body class="main-layout">
-  
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+
+        <div id="dismiss">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+
+        <ul class="list-unstyled components">
+
+            <li class="active">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="about.html">Menu</a>
+            </li>
+            <li>
+                <a href="recipe.html">Local</a>
+            </li>
+            <li>
+                <a href="blog.html">Reservaciones</a>
+            </li>
+        </ul>
+
+    </nav>
+</div>
 
     <div id="content">
     <!-- header -->
@@ -43,22 +69,22 @@
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/home">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="/index">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/vision">Vision</a>
+                    <a class="nav-link" href="/platillos">Menu</a>
                   </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/ubicacion">Ubicacion</a>
+                        <a class="nav-link" href="/ubicacion">Local</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/biografia">Biografia</a>
+                    <a class="nav-link" href="/reservaciones">Reservaciones</a>
                   </li>
                 </ul>
                 
@@ -83,9 +109,12 @@
                                 <nav class="navbar">
                                     <div class="container-fluid">
                                       <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                            <div class="boton-buscar">
-                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                            <input class="form-control me-2 size" type="search" placeholder="Search" aria-label="Search">
+                                             <div class="boton-buscar">
+                                             <button class="btn btn-outline-success" type="submit">Search</button>
+                                                
+                                             
+
                                             </div>
                                       </form>
                                     </div>
