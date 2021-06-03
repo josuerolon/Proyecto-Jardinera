@@ -33,9 +33,6 @@ body {
     text-align: center;
 }
 
-.lista ul li:last-child{
-    
-}
 
 .lista ul li a:hover, .lista ul li a:focus{
     background: #e3d105;
@@ -43,9 +40,6 @@ body {
     color: #222 !important;
 }
 
-div.col-md-3{
-    
-}
 
 .justify-center-content img{    
     margin: 4% auto;
@@ -59,27 +53,6 @@ padding: 17px 25% !important;
 div form input{
     margin-top: 1px;
 }
-
-
-.main{
-    width: 50%;
-    margin: 50px auto;
-    display: none;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    display: none;
-}
-
 
 
 div.col-md-auto{

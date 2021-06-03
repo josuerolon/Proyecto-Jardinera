@@ -327,7 +327,7 @@ $(document).ready(function() {
 		theme: "minimal"
 	});
 
-	$('#dismiss, .overlay, #sidebar').on('click', function() {
+	$('#dismiss, .overlay').on('click', function() {
 		$('#sidebar').removeClass('active');
 		$('.overlay').removeClass('active');
 	});
