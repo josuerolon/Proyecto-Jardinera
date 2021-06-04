@@ -88,11 +88,11 @@
         padding: 10px 20px;
      }
 
-    header div.col-md-4{
+     .navbar-icon{
          margin-left: 290px;
      }
 
-     .col-md-3{
+     .navbar-list{
          display: none;
      }
 
@@ -108,6 +108,10 @@
         padding: 15px 0 15px 10px;
         background-color: black;
         opacity: .8;
+    }
+
+    .telephone, .whatsapp, .facebook{
+        min-width: 20%;
     }
 
     input.form-control:focus{
@@ -184,13 +188,13 @@
         z-index: 2;
      }
 
-     header div.col-md-4{
-        margin-top: -100px;
+     .navbar-icon{
+        margin-top: -90px;
         z-index: 1;
         
      }
 
-    header div.col-md-3{
+     .navbar-list{
         display: none; 
      }
 
@@ -284,13 +288,13 @@
         z-index: 2;
      }
 
-     header  div.col-md-4{
-        margin-top: -100px;
+     .navbar-icon{
+        margin-top: -90px;
         z-index: 1;
                 
      }
 
-     .col-md-3{
+     .navbar-list{
         display: none;
      }
 
@@ -300,11 +304,15 @@
         opacity: .8;
     }
 
+    .telephone, .whatsapp, .facebook{
+        min-width: 20%;
+        
+    }
+
      input.form-control:focus{
         background-color: black;
         color: white;
     }
-
 
      .logo {
         text-align: center;
